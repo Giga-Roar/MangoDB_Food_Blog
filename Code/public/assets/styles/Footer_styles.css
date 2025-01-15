@@ -108,3 +108,92 @@ footer #corp {
 footer h2 span {
     font-size: 18px;
 }
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+    footer h5 {
+        font-size: 180%; /* Reduce heading size for smaller screens */
+        margin-bottom: 40px; /* Reduce margin for smaller screens */
+    }
+
+    .footer_images {
+        flex-direction: column; /* Stack images vertically on small screens */
+        gap: 20px; /* Add spacing between stacked images */
+    }
+
+    .footer_img {
+        flex-basis: 100%; /* Full width for stacked images */
+        width: 80%; /* Adjust width for smaller screens */
+        height: 180px; /* Reduce height for smaller screens */
+    }
+
+    .layer h3 {
+        font-size: 20px; /* Reduce font size for smaller screens */
+    }
+
+    .footer_para {
+        font-size: 20px; /* Reduce paragraph font size for smaller screens */
+    }
+
+    footer #corp {
+        margin-left: 20%; /* Adjust margin for smaller screens */
+        width: 200px; /* Reduce width for smaller screens */
+        height: 60px; /* Reduce height for smaller screens */
+    }
+}
+
+/* For screens between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    footer h5 {
+        font-size: 220%; /* Adjust heading size for medium screens */
+        margin-bottom: 60px; /* Adjust margin for medium screens */
+    }
+
+    .footer_img {
+        flex-basis: 20%; /* Adjust image width for medium screens */
+        width: 150px; /* Adjust width for medium screens */
+        height: 200px; /* Adjust height for medium screens */
+    }
+
+    .layer h3 {
+        font-size: 24px; /* Adjust font size for medium screens */
+    }
+
+    .footer_para {
+        font-size: 25px; /* Adjust paragraph font size for medium screens */
+    }
+
+    footer #corp {
+        margin-left: 35%; /* Adjust margin for medium screens */
+        width: 250px; /* Adjust width for medium screens */
+        height: 70px; /* Adjust height for medium screens */
+    }
+}
+
+/* For screens larger than 1024px (e.g., desktops) */
+@media (min-width: 1024px) {
+    footer h5 {
+        font-size: 250%; /* Default heading size for larger screens */
+        margin-bottom: 85px; /* Default margin for larger screens */
+    }
+
+    .footer_img {
+        flex-basis: 13%; /* Default image width for larger screens */
+        width: 180px; /* Default width for larger screens */
+        height: 220px; /* Default height for larger screens */
+    }
+
+    .layer h3 {
+        font-size: 26px; /* Default font size for larger screens */
+    }
+
+    .footer_para {
+        font-size: 30px; /* Default paragraph font size for larger screens */
+    }
+
+    footer #corp {
+        margin-left: 40%; /* Default margin for larger screens */
+        width: 300px; /* Default width for larger screens */
+        height: 80px; /* Default height for larger screens */
+    }
+}
