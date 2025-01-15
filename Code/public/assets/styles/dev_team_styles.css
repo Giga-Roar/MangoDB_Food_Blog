@@ -211,3 +211,160 @@
         transform: translate(-50%, -50%) rotate(0deg);
     }
 }
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .team_container {
+        height: auto; /* Adjust height to fit content */
+        margin: 10px; /* Reduce margin for smaller screens */
+    }
+
+    .team_container h3 {
+        font-size: 40px; /* Reduce font size for smaller screens */
+        letter-spacing: 5px; /* Reduce letter spacing for smaller screens */
+    }
+
+    .team {
+        padding: 20px; /* Reduce padding for smaller screens */
+        flex-direction: column; /* Stack cards vertically on small screens */
+        align-items: center; /* Center cards vertically */
+    }
+
+    .card {
+        margin: 15px; /* Reduce margin for smaller screens */
+        width: 90%; /* Increase width for better use of space */
+        height: 150px; /* Reduce initial height for smaller screens */
+    }
+
+    .card:hover {
+        height: 400px; /* Adjust expanded height for smaller screens */
+    }
+
+    .img_Box {
+        width: 120px; /* Reduce image box size for smaller screens */
+        height: 120px; /* Reduce image box size for smaller screens */
+    }
+
+    .card:hover .img_Box {
+        width: 180px; /* Adjust expanded image box size for smaller screens */
+        height: 180px; /* Adjust expanded image box size for smaller screens */
+    }
+
+    .details {
+        transform: translateY(100px); /* Adjust initial position for smaller screens */
+    }
+
+    .details h2 {
+        font-size: 1em; /* Reduce font size for smaller screens */
+    }
+
+    .social_Btn {
+        gap: 10px; /* Reduce gap between buttons for smaller screens */
+    }
+
+    .social_Btn button {
+        padding: 4px 8px; /* Reduce button padding for smaller screens */
+    }
+}
+
+/* For screens between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .team_container {
+        height: auto; /* Adjust height to fit content */
+        margin: 15px; /* Adjust margin for medium screens */
+    }
+
+    .team_container h3 {
+        font-size: 50px; /* Adjust font size for medium screens */
+        letter-spacing: 7px; /* Adjust letter spacing for medium screens */
+    }
+
+    .team {
+        padding: 30px; /* Adjust padding for medium screens */
+    }
+
+    .card {
+        margin: 20px; /* Adjust margin for medium screens */
+        width: 300px; /* Adjust card width for medium screens */
+        height: 180px; /* Adjust initial height for medium screens */
+    }
+
+    .card:hover {
+        height: 420px; /* Adjust expanded height for medium screens */
+    }
+
+    .img_Box {
+        width: 140px; /* Adjust image box size for medium screens */
+        height: 140px; /* Adjust image box size for medium screens */
+    }
+
+    .card:hover .img_Box {
+        width: 200px; /* Adjust expanded image box size for medium screens */
+        height: 200px; /* Adjust expanded image box size for medium screens */
+    }
+
+    .details {
+        transform: translateY(120px); /* Adjust initial position for medium screens */
+    }
+
+    .details h2 {
+        font-size: 1.1em; /* Adjust font size for medium screens */
+    }
+
+    .social_Btn {
+        gap: 15px; /* Adjust gap between buttons for medium screens */
+    }
+}
+
+/* For screens larger than 1024px (e.g., desktops) */
+@media (min-width: 1024px) {
+    .team_container {
+        height: 635px; /* Default height for larger screens */
+        margin: 20px; /* Default margin for larger screens */
+    }
+
+    .team_container h3 {
+        font-size: 70px; /* Default font size for larger screens */
+        letter-spacing: 10px; /* Default letter spacing for larger screens */
+    }
+
+    .team {
+        padding: 50px; /* Default padding for larger screens */
+    }
+
+    .card {
+        margin: 30px; /* Default margin for larger screens */
+        width: 350px; /* Default card width for larger screens */
+        height: 200px; /* Default initial height for larger screens */
+    }
+
+    .card:hover {
+        height: 450px; /* Default expanded height for larger screens */
+    }
+
+    .img_Box {
+        width: 160px; /* Default image box size for larger screens */
+        height: 160px; /* Default image box size for larger screens */
+    }
+
+    .card:hover .img_Box {
+        width: 250px; /* Default expanded image box size for larger screens */
+        height: 250px; /* Default expanded image box size for larger screens */
+    }
+
+    .details {
+        transform: translateY(145px); /* Default initial position for larger screens */
+    }
+
+    .details h2 {
+        font-size: 1.25em; /* Default font size for larger screens */
+    }
+
+    .social_Btn {
+        gap: 20px; /* Default gap between buttons for larger screens */
+    }
+
+    .social_Btn button {
+        padding: 5px 10px; /* Default button padding for larger screens */
+    }
+}
