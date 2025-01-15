@@ -9,28 +9,28 @@ function Footer() {
 
                 <div className="footer_images">
                     <div className="footer_img">
-                        <img src="/ASSETS/Img/Chef_VK.jpeg" alt="Vikas Khanna" />
+                        <img src="/assets/Img/Chef_VK.jpeg" alt="Vikas Khanna" />
                         <div className="layer">
                             <h3>Chef Vikas Khanna</h3>
                         </div>
                     </div>
 
                     <div className="footer_img">
-                        <img src="/ASSETS/Img/Chef_SK.jpg" alt="Sanjeev Kapoor" />
+                        <img src="/assets/Img/Chef_SK.jpg" alt="Sanjeev Kapoor" />
                         <div className="layer">
                             <h3>Chef Sanjeev Kapoor</h3>
                         </div>
                     </div>
 
                     <div className="footer_img">
-                        <img src="/ASSETS/Img/Chef_TD.jpg" alt="Tarla Dalal" />
+                        <img src="/assets/Img/Chef_TD.jpg" alt="Tarla Dalal" />
                         <div className="layer">
                             <h3>Chef Tarla Dalal</h3>
                         </div>
                     </div>
 
                     <div className="footer_img">
-                        <img src="/ASSETS/Img/Chef_RB.jpeg" alt="Ranveer Brar" />
+                        <img src="/assets/Img/Chef_RB.jpeg" alt="Ranveer Brar" />
                         <div className="layer">
                             <h3>Chef Ranveer Brar</h3>
                         </div>
@@ -44,7 +44,7 @@ function Footer() {
                     <sup><FontAwesomeIcon icon={faQuoteRight} /></sup>
                 </p>
 
-                <img src="/ASSETS/Img/MangoDB.jpg" alt='MangoDB Corp.' id='corp' />
+                <img src="/assets/Img/MangoDB.jpg" alt='MangoDB Corp.' id='corp' />
                 <p>
                     <span>&copy;</span> This website is for the sole purpose of a
                     mini-project only.
