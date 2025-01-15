@@ -40,3 +40,52 @@ body {
     font-family: 'Tilt Neon';
     font-weight: bold;
 }
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .categories {
+        padding: 4px; /* Reduce padding for smaller screens */
+        height: auto; /* Adjust height to fit content */
+    }
+
+    .category_img {
+        height: 100px; /* Reduce image height for smaller screens */
+        margin-bottom: 5px; /* Reduce margin for smaller screens */
+    }
+
+    .category_title {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+}
+
+/* For screens between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .categories {
+        padding: 6px; /* Adjust padding for medium screens */
+    }
+
+    .category_img {
+        height: 120px; /* Adjust image height for medium screens */
+        margin-bottom: 8px; /* Adjust margin for medium screens */
+    }
+
+    .category_title {
+        font-size: 16px; /* Adjust font size for medium screens */
+    }
+}
+
+/* For screens larger than 1024px (e.g., desktops) */
+@media (min-width: 1024px) {
+    .categories {
+        padding: 8px; /* Default padding for larger screens */
+    }
+
+    .category_img {
+        height: 150px; /* Default image height for larger screens */
+        margin-bottom: 10px; /* Default margin for larger screens */
+    }
+
+    .category_title {
+        font-size: 18px; /* Default font size for larger screens */
+    }
+}
