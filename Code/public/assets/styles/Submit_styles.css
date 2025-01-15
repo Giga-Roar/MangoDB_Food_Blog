@@ -1,0 +1,36 @@
+.form_container {
+    background-color: rgba(227, 196, 168, 0.8);
+    width: 85%;
+    height: 750px;
+    padding: 50px;
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+option {
+    color: #FF5959;
+}
+
+label {
+    font-weight: bolder;
+    color: #0E117A;
+}
+
+.ingredient_input {
+    width: 250px;
+}
+
+.form_container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.form_container::-webkit-scrollbar-track {
+    background: #F0F696;
+}
+
+.form_container::-webkit-scrollbar-thumb {
+    border: 2px solid #F0F696;
+    border-radius: 12px;
+    background-color: #97F7D2;
+}

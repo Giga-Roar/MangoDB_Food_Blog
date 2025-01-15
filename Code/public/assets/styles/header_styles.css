@@ -1,0 +1,85 @@
+body {
+    background-image: url("../Img/body_bg.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.container-fluid {
+    height: 75px;
+    background-color: rgba(54, 52, 53, 0.7);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#logo {
+    text-shadow: 0 0 50px #FF6D24;
+    text-align: center;
+    line-height: 0%;
+    font-family: 'Tektur';
+    cursor: pointer;
+}
+
+#logo a {
+    color: #FF6D24;
+}
+
+#logo_text,
+#logo_subtext {
+    margin-left: 20px;
+}
+
+#logo_subtext {
+    color: #fff;
+}
+
+nav {
+    margin-right: 20px;
+    font-family: 'Tilt Neon';
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+nav a {
+    color: antiquewhite;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+nav li::after {
+    content: '';
+    width: 0%;
+    height: 4px;
+    background: #FF5959;
+    border-radius: 12px;
+    display: block;
+    margin: auto;
+    transition: 300ms ease-in;
+}
+
+nav li:hover::after {
+    width: 100%;
+}
+
+.active {
+    color: #C24D2C;
+}

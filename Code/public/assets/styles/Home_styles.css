@@ -1,0 +1,66 @@
+#homepage_main {
+    background-image: url("../Img/hero_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+}
+
+.thoughts {
+    margin-top: 75px;
+}
+
+.hero_thought {
+    font-family: 'Poppins';
+    padding: 10px;
+    color: antiquewhite;
+    font-size: 32px;
+    font-style: italic;
+}
+
+.hero_thought sup,
+.hero_thought span {
+    font-style: italic;
+}
+
+.hero_thought sup {
+    font-size: 39px;
+}
+
+.hero_thought span {
+    font-size: 18px;
+    margin-left: 650px;
+}
+
+.hero_para p {
+    color: yellow;
+    font-family: 'Tilt Neon';
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    border: none;
+    width: 60%;
+    height: fit-content;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.hero_para span {
+    color: yellow;
+    font-weight: bold;
+}
+
+.hero_explore {
+    background-color: #DF8A30;
+    font-family: 'Poppins';
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.hero_explore:hover {
+    background-color: #AA530E;
+    transform: scale(0.95);
+}

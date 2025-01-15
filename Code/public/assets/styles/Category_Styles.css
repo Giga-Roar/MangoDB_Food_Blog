@@ -1,0 +1,42 @@
+body {
+    overflow-x: hidden;
+}
+
+.categories {
+    background-color: #E1F3F5;
+    padding: 8px;
+    height: 100vh;
+}
+
+.category_link {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    transition: all 250ms;
+}
+
+.category_link:hover {
+    transform: scale(1.1);
+}
+
+.category_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.category_img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.category_title {
+    color: #0D153A;
+    font-family: 'Tilt Neon';
+    font-weight: bold;
+}

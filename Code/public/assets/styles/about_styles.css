@@ -1,0 +1,30 @@
+.about-section {
+    font-family: 'Tilt Neon';
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    color: #3B5441;
+    background: white;
+}
+
+.about-section hr {
+    height: 20px;
+    background-color: #E31748;
+    border: none;
+    border-radius: 12px;
+}
+
+.about-section p {
+    color: red;
+    text-align: start;
+    line-height: 35px;
+}
+
+.about-section a {
+    font-weight: bold;
+    color: inherit;
+}
+
+.about-section .special {
+    text-align: center;
+}
