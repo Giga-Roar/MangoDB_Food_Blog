@@ -83,3 +83,94 @@ a {
 .recipe_data div {
     margin-left: 100px;
 }
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+    #preloader {
+        background-size: 40%; /* Increase loader size for smaller screens */
+    }
+
+    .recipe_img {
+        left: 10%; /* Adjust position for smaller screens */
+        width: 80%; /* Increase width for smaller screens */
+        height: 200px; /* Reduce height for smaller screens */
+    }
+
+    .recipe_data {
+        margin: 5px; /* Reduce margin for smaller screens */
+    }
+
+    .recipe_data p {
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+
+    .recipe_data p span {
+        font-size: 18px; /* Reduce font size for smaller screens */
+    }
+
+    .recipe_data div {
+        margin-left: 20px; /* Reduce margin for smaller screens */
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px; /* Reduce scrollbar width for smaller screens */
+    }
+}
+
+/* For screens between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .recipe_img {
+        left: 25%; /* Adjust position for medium screens */
+        width: 60%; /* Adjust width for medium screens */
+        height: 220px; /* Adjust height for medium screens */
+    }
+
+    .recipe_data {
+        margin: 8px; /* Adjust margin for medium screens */
+    }
+
+    .recipe_data p {
+        font-size: 17px; /* Adjust font size for medium screens */
+    }
+
+    .recipe_data p span {
+        font-size: 19px; /* Adjust font size for medium screens */
+    }
+
+    .recipe_data div {
+        margin-left: 50px; /* Adjust margin for medium screens */
+    }
+}
+
+/* For screens larger than 1024px (e.g., desktops) */
+@media (min-width: 1024px) {
+    #preloader {
+        background-size: 20%; /* Default loader size for larger screens */
+    }
+
+    .recipe_img {
+        left: 35%; /* Default position for larger screens */
+        width: 500px; /* Default width for larger screens */
+        height: 250px; /* Default height for larger screens */
+    }
+
+    .recipe_data {
+        margin: 10px; /* Default margin for larger screens */
+    }
+
+    .recipe_data p {
+        font-size: 18px; /* Default font size for larger screens */
+    }
+
+    .recipe_data p span {
+        font-size: 20px; /* Default font size for larger screens */
+    }
+
+    .recipe_data div {
+        margin-left: 100px; /* Default margin for larger screens */
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px; /* Default scrollbar width for larger screens */
+    }
+}
