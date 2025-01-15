@@ -34,3 +34,62 @@ label {
     border-radius: 12px;
     background-color: #97F7D2;
 }
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .form_container {
+        width: 95%; /* Increase width for better use of space on small screens */
+        height: 500px; /* Reduce height for smaller screens */
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    .ingredient_input {
+        width: 100%; /* Full width for inputs on small screens */
+    }
+
+    label {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+
+    .form_container::-webkit-scrollbar {
+        width: 6px; /* Reduce scrollbar width for smaller screens */
+    }
+}
+
+/* For screens between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .form_container {
+        width: 90%; /* Adjust width for medium screens */
+        height: 600px; /* Adjust height for medium screens */
+        padding: 30px; /* Adjust padding for medium screens */
+    }
+
+    .ingredient_input {
+        width: 80%; /* Adjust input width for medium screens */
+    }
+
+    label {
+        font-size: 16px; /* Adjust font size for medium screens */
+    }
+}
+
+/* For screens larger than 1024px (e.g., desktops) */
+@media (min-width: 1024px) {
+    .form_container {
+        width: 85%; /* Default width for larger screens */
+        height: 750px; /* Default height for larger screens */
+        padding: 50px; /* Default padding for larger screens */
+    }
+
+    .ingredient_input {
+        width: 250px; /* Default input width for larger screens */
+    }
+
+    label {
+        font-size: 18px; /* Default font size for larger screens */
+    }
+
+    .form_container::-webkit-scrollbar {
+        width: 8px; /* Default scrollbar width for larger screens */
+    }
+}
