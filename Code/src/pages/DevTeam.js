@@ -13,7 +13,7 @@ function DevTeam() {
                     <div className="card">
                         <div className="lines"></div>
                         <div className="img_Box">
-                            <img src="ASSETS/Img/Team/Aathreya.jpg" alt="Aathreya D A" />
+                            <img src="/assets/Img/Team/Aathreya.jpg" alt="Aathreya D A" />
                         </div>
                         <div className="content">
                             <div className="details">
@@ -32,7 +32,7 @@ function DevTeam() {
                     <div className="card">
                         <div className="lines"></div>
                         <div className="img_Box">
-                            <img src="ASSETS/Img/Team/Ajith.jpg" alt="Ajith S.P" />
+                            <img src="/assets/Img/Team/Ajith.jpg" alt="Ajith S.P" />
                         </div>
                         <div className="content">
                             <div className="details">
@@ -51,7 +51,7 @@ function DevTeam() {
                     <div className="card">
                         <div className="lines"></div>
                         <div className="img_Box">
-                            <img src="ASSETS/Img/Team/Akarsh.jpg" alt="Akarsh T O" />
+                            <img src="/assets/Img/Team/Akarsh.jpg" alt="Akarsh T O" />
                         </div>
                         <div className="content">
                             <div className="details">
