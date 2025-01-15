@@ -83,3 +83,117 @@ nav li:hover::after {
 .active {
     color: #C24D2C;
 }
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+    body {
+        background-size: auto; /* Adjust background size for smaller screens */
+    }
+
+    .container-fluid {
+        height: 60px; /* Reduce height for smaller screens */
+    }
+
+    header {
+        flex-direction: column; /* Stack logo and nav vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    #logo {
+        margin-left: 10px; /* Adjust margin for smaller screens */
+    }
+
+    #logo_text,
+    #logo_subtext {
+        margin-left: 10px; /* Adjust margin for smaller screens */
+    }
+
+    nav {
+        margin-right: 10px; /* Adjust margin for smaller screens */
+        font-size: 14px; /* Reduce font size for smaller screens */
+        flex-direction: column; /* Stack nav items vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    nav li {
+        margin-right: 0; /* Remove right margin for stacked items */
+        margin-bottom: 10px; /* Add bottom margin for spacing */
+    }
+
+    nav a:hover {
+        transform: scale(1); /* Disable hover scaling for smaller screens */
+    }
+
+    nav li::after {
+        height: 2px; /* Reduce underline height for smaller screens */
+    }
+}
+
+/* For screens between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container-fluid {
+        height: 70px; /* Adjust height for medium screens */
+    }
+
+    #logo {
+        margin-left: 15px; /* Adjust margin for medium screens */
+    }
+
+    #logo_text,
+    #logo_subtext {
+        margin-left: 15px; /* Adjust margin for medium screens */
+    }
+
+    nav {
+        margin-right: 15px; /* Adjust margin for medium screens */
+        font-size: 16px; /* Adjust font size for medium screens */
+    }
+
+    nav li {
+        margin-right: 20px; /* Adjust margin for medium screens */
+    }
+
+    nav li::after {
+        height: 3px; /* Adjust underline height for medium screens */
+    }
+}
+
+/* For screens larger than 1024px (e.g., desktops) */
+@media (min-width: 1024px) {
+    body {
+        background-size: cover; /* Default background size for larger screens */
+    }
+
+    .container-fluid {
+        height: 75px; /* Default height for larger screens */
+    }
+
+    header {
+        flex-direction: row; /* Default layout for larger screens */
+        align-items: center; /* Default alignment for larger screens */
+    }
+
+    #logo {
+        margin-left: 20px; /* Default margin for larger screens */
+    }
+
+    #logo_text,
+    #logo_subtext {
+        margin-left: 20px; /* Default margin for larger screens */
+    }
+
+    nav {
+        margin-right: 20px; /* Default margin for larger screens */
+        font-size: 18px; /* Default font size for larger screens */
+        flex-direction: row; /* Default layout for larger screens */
+        align-items: center; /* Default alignment for larger screens */
+    }
+
+    nav li {
+        margin-right: 30px; /* Default margin for larger screens */
+    }
+
+    nav li::after {
+        height: 4px; /* Default underline height for larger screens */
+    }
+}
